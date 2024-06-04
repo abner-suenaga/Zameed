@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="../src/css/estilos.css">
+    <link rel="stylesheet" href="../src/css/scrollbar.css">
+</head>
+<body id="pagina-login">
+    <img src="../src/imagens/6310507.jpg" alt="" class="imagem-formulario-login">
+    <div class="formulario-de-login">
+        <form action="#" id="formulario-login">
+            <div class="formulario-login-header">
+                <div class="titulo">
+                    <h1>Cadastre-se</h1>
+                </div>
+                <div class="botao">
+                    <button>
+                        <a href="../formulario login/entrar.html">Entrar</a>
+                    </button>
+                </div>
+            </div>
+            <div class="inputs-login">
+                <div class="input-box">
+                    <label for="caixa-primeiro-nome">Primeiro Nome</label>
+                    <input type="text" required name="primeiro-nome" placeholder="Digite seu nome" id="caixa-primeiro-nome">
+                </div>
+                <div class="input-box">
+                    <label for="caixa-sobrenome">Sobrenome</label>
+                    <input type="text" required name="sobrenome" placeholder="Digite seu sobrenome" id="caixa-sobrenome">
+                </div>
+                <div class="input-box">
+                    <label for="caixa-email">Email</label>
+                    <input type="email" required name="email" placeholder="Digite seu email" id="caixa-email">
+                </div>
+                <div class="input-box">
+                    <label for="caixa-telefone">Telefone</label>
+                    <input type="tel" required name="numero" placeholder="Digite seu número" id="caixa-telefone">
+                </div>
+                <div class="input-box">
+                    <label for="caixa-senha">Senha</label>
+                    <input type="password" required name="senha" placeholder="Cria uma senha" id="caixa-telefone">
+                </div>
+                <div class="input-box">
+                    <label for="caixa-confirme-senha">Confirmar Senha</label>
+                    <input type="password" required name="confirme-senha" placeholder="Confirme sua senha" id="caixa-confirme-senha">
+                </div>
+            </div>
+            <div class="genero-group">
+                <div class="titulo">
+                    <h6>Gênero</h6>
+                </div>
+                <div class="genero-input">
+                    <div class="genero">
+                        <input type="radio" name="masculino" id="seletor-masculino">
+                        <label for="seletor-masculino">Masculino</label>
+                    </div>
+                    <div class="genero">
+                        <input type="radio" name="feminino" id="seletor-feminino">
+                        <label for="seletor-feminino">Feminino</label>
+                    </div>
+                    <div class="genero">
+                        <input type="radio" name="outros" id="seletor-outros">
+                        <label for="seletor-outros">Outros</label>
+                    </div>
+                    <div class="genero">
+                        <input type="radio" id="seletor-prefiro-nao-dizer">
+                        <label for="seletor-prefiro-nao-dizer">Prefiro não dizer</label>
+                    </div>
+                </div>
+            </div>
+            <div class="botao-continuar">
+                <button><a href="#">Continuar</a></button>
+            </div>
+            <a href="../index.html" class="voltar-login">Voltar</a>
+        </form>
+    </div>
+</body>
+</html>
